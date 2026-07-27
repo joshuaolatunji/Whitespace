@@ -5,7 +5,7 @@ function Logo() {
         <img 
         src={logo} 
         alt="Whitespace logo" 
-        className="h-9 w-auto object-contain cursor-pointer ml-50 my-8"/>
+        className="h-34px w-191px object-contain cursor-pointer my-8"/>
     )
 }
 

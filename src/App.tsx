@@ -11,14 +11,17 @@ import Sponsors from "./components/Sponsors/Sponsors"
 import WorkEverywhere from "./components/WorkEverywhere/WorkEverywhere"
 import WorkTogether from "./components/WorkTogether/WorkTogether"
 import YourData from "./components/YourData/YourData"
-// import Testimonials from "./components/Testimonials/Testimonials"
+import Testimonials from "./components/Testimonials/Testimonials";
 
 
 function App() {
 
 return(
   <div>
-      <Navbar />
+    <div className="p-12">
+       <Navbar />
+    </div>
+     
       <Hero />
       <ProjectManagement />
       <WorkTogether />
@@ -29,7 +32,7 @@ return(
       <YourData />
       <Sponsors />
       <FavoriteApps />
-      {/* <Testimonials /> */}
+      <Testimonials />
       <CTA />
       <Footer />
   </div>

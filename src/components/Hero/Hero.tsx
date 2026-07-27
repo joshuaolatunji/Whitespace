@@ -1,21 +1,26 @@
+import image from "../../assets/Element 2.png"
+
 function Hero() {
   return (
-    <section className="bg-[#043873] pt-32 pb-20 px-6">
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-10">
-        <div className="text-white max-w-md">
+    <section className="bg-nav-bg p-8 h-207.25 w-full" style={{ backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat',  backgroundPosition: "center",}}>
+      <div className="flex mx-auto justify-evenly px-55 py-35 ">
 
-          <h1 className="text-4xl font-bold mb-4 ml-25">Get More Done with whitepace</h1>
+        <div className="text-white gap-5 max-w-164 max-h-59.5 justify-center mt-20">
 
-          <p className="text-blue-100 mb-6 ml-25">
+          <h1 className="text-[64px] w-164 h-38.5 font-bold mb-12">Get More Done with whitepace</h1>
+
+          <p className="text-[18px] w-164 h-15 font-light mb-16">
             Project management software that enables your team to collaborate, plan, analyze and manage everyday tasks
           </p>
 
-          <button className="bg-blue-500 text-white px-5 py-3 rounded-md font-medium ml-25">
+          <button className="bg-blue-500 text-white px-5 py-3 rounded-md font-medium">
             Try Whitepace Free
           </button>
 
         </div>
-        <div className="bg-blue-200 w-[420px] h-[280px] rounded-md" />
+
+        <div className="bg-blue-200 w-206 h-137.25 rounded-md" />
+
       </div>
       
     </section>
@@ -23,3 +28,4 @@ function Hero() {
 }
 
 export default Hero;
+
