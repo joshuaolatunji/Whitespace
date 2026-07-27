@@ -1,11 +1,13 @@
 import image from "../../assets/Element 2.png"
+import Button from "../Button/Button";
+
 
 function Hero() {
   return (
     <section className="bg-nav-bg p-8 h-207.25 w-full" style={{ backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat',  backgroundPosition: "center",}}>
-      <div className="flex mx-auto justify-evenly px-55 py-35 ">
+      <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-evenly px-55 py-35">
 
-        <div className="text-white gap-5 max-w-164 max-h-59.5 justify-center mt-20">
+        <div className="text-white gap-5 max-w-164 max-h-59.5 justify-center mb-25">
 
           <h1 className="text-[64px] w-164 h-38.5 font-bold mb-12">Get More Done with whitepace</h1>
 
@@ -13,9 +15,7 @@ function Hero() {
             Project management software that enables your team to collaborate, plan, analyze and manage everyday tasks
           </p>
 
-          <button className="bg-blue-500 text-white px-5 py-3 rounded-md font-medium">
-            Try Whitepace Free
-          </button>
+          <Button />
 
         </div>
 

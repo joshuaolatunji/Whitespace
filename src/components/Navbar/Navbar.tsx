@@ -2,6 +2,9 @@ import { Dropdown } from "./Dropdown";
 import Logo from "./Logo";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Button from "../Button/Button";
+import { ArrowRight } from 'lucide-react';
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +25,7 @@ function Navbar() {
           <button className="bg-but-yel text-[#043873] text-sm font-semibold px-10 py-4 rounded-sm">
             Login
           </button>
-          <button className="bg-site text-white text-sm font-semibold px-10 py-4 rounded-sm">
-            Try Whitepace Free
-          </button>
+         <Button />
         </div>
 
         </div>
@@ -41,11 +42,12 @@ function Navbar() {
       {isOpen && (
         <div className="lg:hidden flex flex-col gap-4 bg-[#043873] px-6 pb-6">
           <Dropdown />
-          <button className="bg-but-yel text-[#043873] text-sm font-semibold px-4 py-2 rounded-sm text-left">
+          <button className="bg-but-yel text-[#043873] text-sm font-semibold px-4 py-2 rounded-sm w-50">
             Login
           </button>
-          <button className="bg-site text-white text-sm font-semibold px-4 py-2 rounded-md">
+          <button className=" flex bg-site text-white text-sm font-semibold px-4 py-2 rounded-md w-50 gap-2">
             Try Whitepace Free
+            <ArrowRight />
           </button>
         </div>
       )}
