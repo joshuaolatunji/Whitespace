@@ -26,7 +26,7 @@ return(
       <Hero />
       {/* <ProjectManagement /> */}
       <WorkManagement />
-      <WorkTogether />
+      {/* <WorkTogether /> */}
       <ExtensionBanner />
       <Customise />
       <Pricing />

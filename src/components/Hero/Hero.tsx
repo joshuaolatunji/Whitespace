@@ -10,8 +10,7 @@ function Hero() {
         <div className="text-white gap-5 max-w-164 max-h-59.5 justify-center mb-25">
 
           <h1 className="text-[64px] w-164 h-38.5 font-bold mb-12">Get More Done with whitepace</h1>
-
-          <p className="text-[18px] w-164 h-15 font-light mb-16">
+          <p className="text-[18px] w-164 h-15 font-light mb-5">
             Project management software that enables your team to collaborate, plan, analyze and manage everyday tasks
           </p>
 
