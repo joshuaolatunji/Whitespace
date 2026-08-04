@@ -3,8 +3,8 @@ import workTogetherImg from "../../assets/Work Together Image.png";
 function WorkTogether() {
   return (
     <section className="py-20 px-6">
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-10">
-        <img src={workTogetherImg} alt="Work together diagram" className="w-[300px] h-auto ml-25" />
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 text-center lg:text-left">
+        <img src={workTogetherImg} alt="Work together diagram" className="w-75 h-auto lg:ml-25" />
         <div className="max-w-md">
           <h2 className="text-3xl font-bold mb-4">Work together</h2>
           <p className="text-gray-600 mb-6">

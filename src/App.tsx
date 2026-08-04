@@ -9,7 +9,7 @@ import Pricing from "./components/Pricing/Pricing"
 // import ProjectManagement from "./components/ProjectManagement/ProjectManagement"
 import Sponsors from "./components/Sponsors/Sponsors"
 import WorkEverywhere from "./components/WorkEverywhere/WorkEverywhere"
-import WorkTogether from "./components/WorkTogether/WorkTogether"
+// import WorkTogether from "./components/WorkTogether/WorkTogether"
 import YourData from "./components/YourData/YourData"
 import Testimonials from "./components/Testimonials/Testimonials";
 import WorkManagement from "./components/WorkManagement/WorkManagement";
@@ -19,7 +19,7 @@ function App() {
 
 return(
   <div>
-    <div className="p-12">
+    <div className="p-6 lg:p-12">
        <Navbar />
     </div>
      

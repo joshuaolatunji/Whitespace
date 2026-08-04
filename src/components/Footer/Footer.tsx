@@ -13,7 +13,7 @@ function Footer() {
         <div>
           <Logo />
           <p className="text-blue-200 text-sm mt-4 max-w-xs">
-            whitepace was created for the ways we live and work to be a better workspace around the world.
+            Whitepace was created for the ways we live and work to be a better workspace around the world.
           </p>
         </div>
 
