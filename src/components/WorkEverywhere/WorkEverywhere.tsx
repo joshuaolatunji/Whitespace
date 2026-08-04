@@ -1,6 +1,6 @@
 function WorkEverywhere() {
   return (
-    <section className="flex flex-col bg-[#043873] py-12 md:py-20 lg:py-35 px-4 sm:px-10 md:px-20 lg:px-55 text-center text-white h-auto lg:h-143.5 w-full items-center justify-center">
+    <section className="flex flex-col bg-[#043873] py-12 md:py-20 lg:py-35 px-6 sm:px-10 md:px-20 lg:px-55 text-center text-white h-auto lg:h-143.5 w-full items-center justify-center">
       <h2 className="text-[32px] sm:text-[44px] lg:text-[72px] font-bold h-auto lg:max-h-21.75 mb-6 lg:mb-10">
         Your work, everywhere you are
       </h2>

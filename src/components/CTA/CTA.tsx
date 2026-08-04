@@ -2,7 +2,7 @@ import {salesLogos} from "./salesLogo"
 
 function CTA() {
   return (
-    <section className="bg-[#043873] pt-16 md:pt-24 lg:pt-35 px-4 sm:px-10 md:px-20 lg:px-55 pb-8 lg:pb-8 text-center text-white justify-center w-full h-auto lg:h-176.25">
+    <section className="bg-[#043873] pt-16 md:pt-24 lg:pt-35 px-6 sm:px-10 md:px-20 lg:px-55 pb-8 lg:pb-8 text-center text-white justify-center w-full h-auto lg:h-176.25">
       <h2 className="text-[32px] sm:text-[44px] lg:text-[72px] font-bold w-full max-w-152 mx-auto leading-tight">Try Whitepace today</h2>
       <p className="text-base sm:text-[20px] lg:text-[24px] mb-2">Get started for free.</p>
       <p className="text-base sm:text-[20px] lg:text-[24px] mb-8">Add your whole team as your needs grow.</p>

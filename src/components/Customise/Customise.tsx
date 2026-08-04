@@ -1,6 +1,6 @@
 function Customise() {
   return (
-    <section className="py-12 md:py-20 lg:py-35 px-4 sm:px-10 md:px-20 lg:px-55 w-full h-auto lg:h-203">
+    <section className="py-12 md:py-20 lg:py-35 px-6 sm:px-10 md:px-20 lg:px-55 w-full h-auto lg:h-203">
       <div className="mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-20">
         <div className="bg-blue-200 w-full max-w-178.5 h-64 sm:h-80 md:h-96 lg:w-178.5 lg:h-133 rounded-md" />
         <div className="w-full lg:max-w-167.25 lg:max-h-102.75 text-center lg:text-left">

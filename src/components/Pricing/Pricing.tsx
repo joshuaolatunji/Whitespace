@@ -2,7 +2,7 @@ import { plans } from "./plans";
 
 function Pricing() {
   return (
-    <section className="py-12 md:py-20 px-4 sm:px-6 text-center w-full h-auto lg:h-318">
+    <section className="py-12 md:py-20 px-6 sm:px-10 md:px-20 lg:px-55 text-center w-full h-auto lg:h-318">
       <div className="w-full flex flex-col items-center justify-center mb-10 lg:mb-15">
         <h2 className="text-[36px] sm:text-[48px] lg:text-[72px] font-bold mb-2">Choose Your Plan</h2>
 

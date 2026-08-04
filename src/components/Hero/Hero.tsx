@@ -4,8 +4,8 @@ import Button from "../Button/Button";
 
 function Hero() {
   return (
-    <section className="bg-nav-bg p-8 h-auto lg:h-207.25 w-full bg-cover" style={{ backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat',  backgroundPosition: "center",}}>
-      <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-evenly px-4 sm:px-10 md:px-20 lg:px-55 py-16 md:py-24 lg:py-35">
+    <section className="bg-nav-bg py-8 h-auto lg:h-207.25 w-full bg-cover" style={{ backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat',  backgroundPosition: "center",}}>
+      <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-evenly px-6 sm:px-10 md:px-20 lg:px-55 py-16 md:py-24 lg:py-35">
 
         <div className="text-white gap-5 w-full max-w-164 justify-center text-center lg:text-left mb-10 lg:mb-25">
 

@@ -1,7 +1,7 @@
 function ExtensionBanner() {
   return (
-    <section className="bg-nav-bg w-full h-auto lg:h-189.75 p-6">
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly gap-10 px-4 sm:px-10 md:px-20 lg:px-55 py-12 md:py-20 lg:py-35">
+    <section className="bg-nav-bg w-full h-auto lg:h-189.75 py-6">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly gap-10 px-6 sm:px-10 md:px-20 lg:px-55 py-12 md:py-20 lg:py-35">
         <div className="text-white gap-5 w-full lg:max-w-174.25 lg:max-h-73.5 justify-center text-center lg:text-left mb-0 lg:mb-25">
           <h1 className="text-[36px] sm:text-[48px] lg:text-[72px] w-full lg:w-174.25 h-auto font-bold mb-6 lg:mb-12">
             Use as Extension

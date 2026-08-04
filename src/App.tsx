@@ -6,10 +6,8 @@ import Footer from "./components/Footer/Footer"
 import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import Pricing from "./components/Pricing/Pricing"
-// import ProjectManagement from "./components/ProjectManagement/ProjectManagement"
 import Sponsors from "./components/Sponsors/Sponsors"
 import WorkEverywhere from "./components/WorkEverywhere/WorkEverywhere"
-// import WorkTogether from "./components/WorkTogether/WorkTogether"
 import YourData from "./components/YourData/YourData"
 import Testimonials from "./components/Testimonials/Testimonials";
 import WorkManagement from "./components/WorkManagement/WorkManagement";
@@ -19,14 +17,10 @@ function App() {
 
 return(
   <div>
-    <div className="p-6 lg:p-12">
-       <Navbar />
-    </div>
-     
+    <Navbar />
+
       <Hero />
-      {/* <ProjectManagement /> */}
       <WorkManagement />
-      {/* <WorkTogether /> */}
       <ExtensionBanner />
       <Customise />
       <Pricing />

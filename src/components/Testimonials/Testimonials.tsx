@@ -3,7 +3,7 @@ import { testimonials } from "./testionials";
 
 function Testimonials () {
         return (
-         <section className="py-12 md:py-20 lg:py-35 px-4 sm:px-10 md:px-20 lg:px-55 w-full h-auto lg:h-[994.46px] gap-15">
+         <section className="py-12 md:py-20 lg:py-35 px-6 sm:px-10 md:px-20 lg:px-55 w-full h-auto lg:h-[994.46px] gap-15">
       <h2 className="text-[32px] sm:text-[44px] lg:text-[70px] font-bold text-center mb-12">
         What Our Clients Says
       </h2>

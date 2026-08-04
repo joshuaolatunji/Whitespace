@@ -1,11 +1,11 @@
-import Button from "../Button/Button";
+import Button, { Butt } from "../Button/Button";
 import image from "../../assets/Work Together Image.png"
 
 
 
 function WorkManagement() {
     return (
-        <section className="bg-white h-auto lg:h-[1588px] w-full px-4 sm:px-10 md:px-20 lg:px-0">
+        <section className="bg-white h-auto lg:h-[1588px] w-full px-6 sm:px-10 md:px-20 lg:px-0">
             <div className="flex flex-col items-center mt-16 lg:mt-50">
 
                 <div className="flex flex-col lg:flex-row md:flex-row items-center gap-10 lg:gap-0">
@@ -44,8 +44,8 @@ function WorkManagement() {
                         With Whitespace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the URL with others.
                     </p>
 
-                    <div className="flex justify-center lg:justify-start">
-                        <Button />
+                    <div className="flex justify-center lg:justify-start mb-10">
+                        <Butt />
                     </div>
 
                     </div>

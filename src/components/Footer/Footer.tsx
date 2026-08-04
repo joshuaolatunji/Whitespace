@@ -1,4 +1,4 @@
-import Logo from "../Navbar/Logo";
+import Logo from "../../assets/Logo.png";
 
 const footerLinks = {
   Product: ["Overview", "Pricing", "Customer stories"],
@@ -11,7 +11,7 @@ function Footer() {
     <footer className="bg-[#043873] text-white py-16 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
         <div>
-          <Logo />
+          <img src={Logo} alt="Logo" className="h-8" />
           <p className="text-blue-200 text-sm mt-4 max-w-xs">
             Whitepace was created for the ways we live and work to be a better workspace around the world.
           </p>

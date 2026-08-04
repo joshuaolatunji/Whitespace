@@ -10,8 +10,8 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 right-0 z-50 w-full bg-nav-bg shadow-md">
-      <div className="mx-auto flex items-center justify-evenly px-6 py-0">
+    <nav className="sticky top-0 z-50 w-full bg-nav-bg shadow-md">
+      <div className="mx-auto flex items-center justify-between px-6 sm:px-10 md:px-20 lg:px-55 py-4 lg:py-0">
 
         <div>
             <Logo />
@@ -40,7 +40,7 @@ function Navbar() {
 
       {/* Mobile dropdown panel */}
       {isOpen && (
-        <div className="lg:hidden flex flex-col gap-4 bg-[#043873] px-6 pb-6">
+        <div className="lg:hidden flex flex-col gap-4 bg-[#043873] px-6 sm:px-10 md:px-20 pb-6">
           <Dropdown />
           <button className="bg-but-yel text-[#043873] text-sm font-semibold px-4 py-2 rounded-sm w-50">
             Login
