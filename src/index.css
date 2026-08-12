@@ -134,3 +134,14 @@
     @apply font-sans;
     }
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+}
+ 
+ 
+html {
+  font-size: 75%;
+}
